@@ -1,0 +1,2058 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-20 02:39:45 -0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (41ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-20 03:25:55 -0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-09-20 03:26:04 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Compiled home.css  (50ms)  (pid 21737)
+Compiled application.css  (69ms)  (pid 21737)
+Compiled jquery.js  (11ms)  (pid 21737)
+Compiled jquery_ujs.js  (0ms)  (pid 21737)
+Compiled home.js  (918ms)  (pid 21737)
+Compiled application.js  (1023ms)  (pid 21737)
+Completed 200 OK in 1281ms (Views: 1279.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /jquery.js - 200 OK (57ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 03:26:06 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 03:26:10 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/register" for 127.0.0.1 at 2012-09-20 03:26:15 -0400
+Processing by HomeController#register as HTML
+  Rendered home/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-09-20 03:46:30 -0400
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 03:46:30 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:31 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/home/register?username=dhubble&password=" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Processing by HomeController#register as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+  Rendered home/register.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 03:46:46 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/register?username=dhubble&password=" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Processing by HomeController#register as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+  Rendered home/register.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 03:47:32 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (139.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (107.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AddSessionsTable (20120920075100)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("sessions")
+  [1m[36m (0.4ms)[0m  [1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("sessions")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [1m[35m (0.3ms)[0m  CREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120920075100')[0m
+  [1m[35m (187.5ms)[0m  commit transaction
+  [1m[36m (0.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("sessions")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_sessions_on_updated_at')
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 03:58:48 -0400
+
+SyntaxError (/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/controllers/home_controller.rb:15: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.8) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3763656104538546524__call__478040659303282032__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (37.9ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 03:59:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 129ms (Views: 127.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 03:59:22 -0400
+Served asset /application.js - 304 Not Modified (20ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:23 -0400
+Served asset /application.js - 304 Not Modified (15ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:00:58 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:07:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:40 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:07:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:08:20 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started POST "/home/register" for 127.0.0.1 at 2012-09-20 04:08:25 -0400
+
+ActionController::RoutingError (No route matches [POST] "/home/register"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started POST "/home/register" for 127.0.0.1 at 2012-09-20 04:08:42 -0400
+
+ActionController::RoutingError (No route matches [POST] "/home/register"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started POST "/home/register" for 127.0.0.1 at 2012-09-20 04:08:46 -0400
+
+ActionController::RoutingError (No route matches [POST] "/home/register"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:08:59 -0400
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:09:06 -0400
+
+ActionController::RoutingError (No route matches [POST] "/home/login"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:09:42 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 198ms (ActiveRecord: 191.4ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:09:44 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 106ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /application.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:45 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:09:50 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 183ms (ActiveRecord: 179.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:09:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:09:51 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:17:33 -0400
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /home.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:18:03 -0400
+Served asset /application.js - 200 OK (4ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:18:10 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered home/login.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 190ms (Views: 14.6ms | ActiveRecord: 171.4ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:20:15 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered home/login.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 304ms (Views: 95.2ms | ActiveRecord: 204.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /application.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:20:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:20:24 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 187ms (ActiveRecord: 183.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:20:25 -0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `link_to' for #<HomeController:0x007fd4686ea020>):
+  app/controllers/home_controller.rb:6:in `index'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:26:14 -0400
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb___4213047475651719419_33897380 RAISED /home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting ')'
+...er.append= ( link_to 'Logout' :action=>'logout' );@output_bu...
+...                               ^
+Function body:           def _app_views_home_index_html_erb___4213047475651719419_33897380(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<p>Welcome ');@output_buffer.append= ( @username );@output_buffer.safe_concat('!</p>
+
+');@output_buffer.append= ( link_to 'Logout' :action=>'logout' );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__4185050442337865398__process_action__2910736616411988587__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__4049616217197228300__call__1853355381654237717__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (47.5ms)
+Completed 500 Internal Server Error in 102ms
+
+ActionView::Template::Error (/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting ')'
+...er.append= ( link_to 'Logout' :action=>'logout' );@output_bu...
+...                               ^):
+    3: 
+    4: <p>Welcome <%= @username %>!</p>
+    5: 
+    6: <%= link_to 'Logout' :action=>'logout' %>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__4185050442337865398__process_action__2910736616411988587__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__4049616217197228300__call__1853355381654237717__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:26:57 -0400
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb___3235159008534657594_25096600 RAISED /home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting ')'
+...er.append= ( link_to('Logout' :action=>'logout') );@output_b...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+...o('Logout' :action=>'logout') );@output_buffer.safe_concat('
+...                               ^
+Function body:           def _app_views_home_index_html_erb___3235159008534657594_25096600(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<p>Welcome ');@output_buffer.append= ( @username );@output_buffer.safe_concat('!</p>
+
+');@output_buffer.append= ( link_to('Logout' :action=>'logout') );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__2749386005116305045__process_action__3662979643526898290__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__4217685593899430385__call__4218742174646096118__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting ')'
+...er.append= ( link_to('Logout' :action=>'logout') );@output_b...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+...o('Logout' :action=>'logout') );@output_buffer.safe_concat('
+...                               ^):
+    3: 
+    4: <p>Welcome <%= @username %>!</p>
+    5: 
+    6: <%= link_to('Logout' :action=>'logout') %>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2749386005116305045__process_action__3662979643526898290__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__4217685593899430385__call__4218742174646096118__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (57.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:27:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionController::RoutingError (No route matches {:action=>"logout", :controller=>"home"}):
+  app/views/home/index.html.erb:6:in `_app_views_home_index_html_erb___2617164081886232737_16554680'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:28:33 -0400
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb__31996573117697472_25467160 RAISED /home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting '}'
+...Logout', {:controller=>'home' :action=>'logout'}) );@output_...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected '}', expecting ')'
+...ller=>'home' :action=>'logout'}) );@output_buffer.safe_conca...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:8: syntax error, unexpected keyword_ensure, expecting ')'
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_home_index_html_erb__31996573117697472_25467160(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<p>Welcome ');@output_buffer.append= ( @username );@output_buffer.safe_concat('!</p>
+
+');@output_buffer.append= ( link_to('Logout', {:controller=>'home' :action=>'logout'}) );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__2314936793305180248__process_action__370608845909575367__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__256479785081290128__call__3070787871817627310__callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected ':', expecting '}'
+...Logout', {:controller=>'home' :action=>'logout'}) );@output_...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:6: syntax error, unexpected '}', expecting ')'
+...ller=>'home' :action=>'logout'}) );@output_buffer.safe_conca...
+...                               ^
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:8: syntax error, unexpected keyword_ensure, expecting ')'
+/home/dhubble/Workspace_Ruby/6.170/tutorials/tutorial4/app/views/home/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'):
+    3: 
+    4: <p>Welcome <%= @username %>!</p>
+    5: 
+    6: <%= link_to('Logout', {:controller=>'home' :action=>'logout'}) %>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2314936793305180248__process_action__370608845909575367__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__256479785081290128__call__3070787871817627310__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dhubble/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /home/dhubble/.rvm/gems/ruby-1.9.3-p194@tutorial_gemset/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:29:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:15 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/home/logout" for 127.0.0.1 at 2012-09-20 04:29:17 -0400
+Processing by HomeController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:18 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:29:23 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AddSessionsTable (20120920075100)
+Migrating to CreateUsers (20120920083303)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "password_digest" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120920083303')[0m
+  [1m[35m (262.1ms)[0m  commit transaction
+  [1m[36m (0.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("sessions")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_sessions_on_updated_at')
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:52:58 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:52:58 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:52:59 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 04:54:19 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 236ms (ActiveRecord: 231.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:20 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/home/logout" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Processing by HomeController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 04:54:24 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 13:12:00 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 13:12:00 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 1518ms (Views: 1511.0ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 13:12:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 13:12:03 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 13:12:03 -0400
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 13:12:03 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 13:12:03 -0400
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 13:12:03 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-20 13:32:12 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 208ms (ActiveRecord: 203.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 13:32:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:13 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/home/logout" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Processing by HomeController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:18 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-20 13:32:27 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-23 22:17:40 -0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/home/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/login" for 127.0.0.1 at 2012-09-23 22:17:40 -0400
+Processing by HomeController#login as HTML
+  Rendered home/login.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 608ms (Views: 605.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:41 -0400
+Served asset /application.js - 200 OK (5ms)
+
+
+Started POST "/home/login" for 127.0.0.1 at 2012-09-23 22:17:46 -0400
+Processing by HomeController#login as HTML
+  Parameters: {"username"=>"dhubble", "password"=>"[FILTERED]"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 188.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-23 22:17:47 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:49 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-23 22:17:50 -0400
+Served asset /application.js - 304 Not Modified (25ms)
